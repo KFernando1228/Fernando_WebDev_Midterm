@@ -1,5 +1,3 @@
-<legend><strong>Master Detail </strong></legend>
-  <br>
 <html>
 <head>
 <style>
@@ -8,16 +6,19 @@ body {
 }
 
 ul {
+ 
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
+  padding: 10;
+  width: 20%;
+  background-color: #f2f2f2;
   position: fixed;
   height: 100%;
   overflow: auto;
   border: 1px solid #555;
 }
+
+
 
 li a {
   display: block;
@@ -27,32 +28,35 @@ li a {
   border-bottom: 1px solid #555;
 }
 
-li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-li a:hover:not(.active) {
+  li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+
 </style>
 </head>
 <body>
 <form action="">
-<ul>
- <li><a href=""><strong>Activities</strong></a></li>
-  <li><a href="registration.html">Registration Page</a></li>
-  <li><a href="calendar.html">Calendar Page</a></li>
-  <li><a href="wishlist.html">Wishlist Page</a></li>
-  <li><a href="markup.html">Markup Page</a>
-    <li><a href="poem.html">Poem Page</a>
-  </li>
-</ul>
+  <ul>
+<h2><strong>Activities</strong></h2>
+    <hr>
+    <div class="cont">
+        <div class="c-3 m">
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
- 
- 
+          <div class="m-item"><li><a href="registration.html" target="iname">Registration Page</a></li></div>
+            <div class="m-item"><li><a href="Calendar.html" target="iname">Calendar Page</a></li></div>
+            <div class="m-item"><li><a href="wishlist.html" target="iname">Wish list Page</a></li>
+            <div class="m-item"><li><a href="markup.html" target="iname">MarkupPage</a></li>
+            <div class="m-item"><li><a href="poem.html" target="iname">Poem Page</a></li></div>
+
+        </div>
+   </ul>
+
+    <div style="margin-left:30%;padding:1px 100px;height:100%;">
+<div class="c-9 det">
+            <iframe src="registration.html" name="iname" frameborder=""height="100%" width="100%"></iframe>
+
 </div>
 </form>
 </body>
