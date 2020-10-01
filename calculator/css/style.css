@@ -6,6 +6,9 @@
   margin: 0px auto;
   padding: 20px 20px 100px 20px;
 }
+body {
+  background-color:  #87ceeb;
+}
 #agh{
   position: relative;
   float: right;
@@ -25,8 +28,8 @@ input[type=button] {
   margin-top: 10px;
 }
 input[type=button]:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: #000;
+ 
   transform: translateY(4px);
 }
 input[type=button]:hover {
@@ -42,6 +45,4 @@ input[type = text] {
   padding: 10px;
   
 }
-body {
-  background-color:  #87ceeb;
-}
+
