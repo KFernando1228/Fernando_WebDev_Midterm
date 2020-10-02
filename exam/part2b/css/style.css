@@ -1,0 +1,118 @@
+
+body{
+  background-color:#f6f5f5;
+  margin:0px;
+  padding:0px;
+}
+ul{
+  list-style:none;
+}
+a{
+  text decoration:none;
+}
+section{
+  width:100%
+    height:95vh;
+  background-image:url("https://scontent.fmnl7-1.fna.fbcdn.net/v/t1.15752-9/118653742_517190815779373_3590609988709682956_n.jpg?_nc_cat=103&_nc_sid=ae9488&_nc_ohc=Y5-AW3aOOBsAX-aJvEl&_nc_ht=scontent.fmnl7-1.fna&oh=d71856201e287e4298ed3bed0ea735e8&oe=5F9E0A36");
+  background-image:no-repeat;
+  background-size:cover;
+  position:relative;
+  
+}
+nav{
+  display:flex;
+  justify-content:Space-between;
+  align-items:center;
+  height:60px;
+  background-color:#FFFFFF;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+nav ul{
+  display:flex;
+}
+nav ul li a{
+  margin:30px;
+  font-family:myriad pro regular;
+  color:#505050;
+  font-size:15px;
+ font-weight:700;
+}
+.logo{
+  font-family:RoadTest;
+  color:#000000;
+  font-size:22px;
+}
+.active{
+  font-weight:bold;
+  color:#2d2a2a;
+}
+.text-container p:nth-child(1){
+  font-family:calibri;
+  font-weight:bold;
+  color:#6d6d6d;
+}
+.text-container p:nth-child(2){
+  font-family:calibri;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#1a1a1a;
+  font-size:60px;
+}
+.text-container p:nth-child(3){
+  font-family:myriad pro regular;
+  color:#403e3e;
+  font-size:30px;
+  line-height:30px;
+}
+  .text-container p{
+    line-height:0px;
+    margin:45px 0px 25px;
+  }
+.text-container{
+  position:absolute;
+  left:13%;
+  top:42%;
+  transform:translate(-13%,-42%);
+}
+.model{
+  height:560px;
+  position:absolute;
+  bottom:40px;
+  left:70%;
+  transform:translateX(-70%);
+}
+.about-container{
+  width:80%;
+  height:330px;
+  background-color:#FFFFFF;
+  border-radius:20px;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+  display:flex;
+  margin:-7% auto 20px auto;
+  position:relative;
+}
+.about-text{
+  width:550px;
+}
+.about-text p:nth-child(1){
+  color:#403e3e;
+  font-family:myriad pro;
+  font-weight:bold;
+  font-size:23px;
+  line-height:0px;
+}
+.about-text p:nth-child(2){
+  color:#3e3d3d;
+  font-size:13px;
+  font-family:myriad pro;
+  font-weight:bold;
+  line-height:5px;
+}
+.about-text p:nth-child(3),.about-text p:nth-child(4){
+color:#7e7d7d;
+  font-family:calibri;
+  font-size:16px;
+  
+}
+  
+
