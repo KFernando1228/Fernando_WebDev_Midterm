@@ -139,7 +139,6 @@ nav ul li a{
 .image {
 width:300px;
 height:150px;
-display: inline;
 margin:150px;
 }
 .image:hover {
