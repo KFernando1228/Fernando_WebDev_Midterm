@@ -137,13 +137,13 @@ nav ul li a{
  margin:50px 0px;
 }
 .image {
-width:350px;
-height:250px;
-margin:100px;
+width:450px;
+height:350px;
+margin:auto;
 }
 .image:hover {
-width:310px;
-height:200px;
+width:410px;
+height:300px;
 box-shadow: 2px 4px 22px 8px rgba(0,0,0,0.43);
 transition: 0.5s;
 }
@@ -151,6 +151,7 @@ table {
 margin-top: -10%;
 margin:100px;
 }
+
 footer p{
  font-family: calibri;
 }
