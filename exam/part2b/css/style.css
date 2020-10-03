@@ -118,16 +118,16 @@ nav ul li a{
 
 .works{
  height:600px;
- background-color:#000000;
+ background-image:url("https://i.pinimg.com/originals/26/50/a1/2650a1d103eccc3e5673d64d305018a8.gif");
+ background-size:cover;
+ background-repeat:no-repeat;
+ position: relative;
  padding: 2% 10% 0px 10%;
 }
 .works-text p:nth-child(1){
  font-family: calibri;
  font-weight:bold;
- background-image:url("https://i.pinimg.com/originals/26/50/a1/2650a1d103eccc3e5673d64d305018a8.gif");
- background-size:cover;
- background-repeat:no-repeat;
- position: relative;
+ color:#000000;
  font-size:50px;
  line-height:10px;
   text-align:center;
