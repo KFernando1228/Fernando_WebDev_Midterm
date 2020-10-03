@@ -117,7 +117,7 @@ nav ul li a{
 }
 
 .works{
- height:1600px;
+ height:1400px;
  max-width:100%;
  background-image:url("https://i.pinimg.com/originals/26/50/a1/2650a1d103eccc3e5673d64d305018a8.gif");
  background-size:cover;
@@ -138,8 +138,8 @@ nav ul li a{
  margin:50px 0px;
 }
 .image {
-width:450px;
-height:350px;
+width:410px;
+height:300px;
 margin:auto;
 }
 .image:hover {
